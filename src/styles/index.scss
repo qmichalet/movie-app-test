@@ -111,7 +111,8 @@
 
     &:hover {
       cursor: pointer;
-      transform: scale(1.1);
+      transform: scale(1.01);
+      box-shadow: 0px 0px 100px 50px rgba(54, 71, 220, 0.1);
 
       .card {
         &__subcard {
@@ -138,6 +139,7 @@
 
     &__subcard {
       padding: 0.5rem;
+      height: 100%;
     }
 
     &__title {
